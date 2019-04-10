@@ -1,0 +1,494 @@
+当前index页面的css文件*/
+/*头部样式部分开始*/
+.header{
+	height:80px;
+}
+.header .logo{
+	margin-top: 16px;
+}
+.logo h1 a {
+	display:block;
+    width:90px;
+    height:55px;
+    background: url('../images/logo.png') no-repeat;
+    font-size: 0px;
+}
+.header .header_nav{
+	margin:0 450px 0 51px;
+}
+.header_nav ul li {
+  float: left;
+  height: 80px;
+  line-height: 80px;
+  font-size: 16px;
+  padding-right: 50px;
+  
+}
+.header_nav ul li:nth-child(2){
+	 padding-right: 65px;
+}
+/* .header .userInfo{
+margin:0 22px 0 0;
+} */
+.userInfo ul li{
+	  float: left;
+    height: 80px;
+    line-height: 80px;
+    font-size:16px;
+ /*    margin-right: 20px; */
+}
+.userInfo ul li:nth-child(1),
+.userInfo ul li:nth-child(2)
+{
+	padding-right: 20px;
+}
+.userInfo ul li:nth-child(3){
+	font-size:12px;
+}
+/*头部样式部分结束*/
+
+
+/* 中间广告部分开始 */
+.banner{
+ background:url(../images/11.jpg) no-repeat;
+ height:420px;
+}
+.banner .banner-right { 
+  margin-top: 105px;
+  float: right;
+}
+.banner-right .one{
+  width: 209px;
+  height: 130px;
+  margin-bottom: 15px;
+  border-radius:10px;
+  background: rgba(0,0,0,.1);
+  padding:20px 23px 0 23px; 
+  overflow: hidden;
+}
+.banner-right .one .on {
+  border-left: 5px solid #fc7c52;
+  padding-left: 10px;
+  font-size: 14px;
+  color:#fff;
+
+}
+
+.one .num p{
+  float:left;
+  margin-top: 50px;
+  font-size: 47px;
+  color:#fff;
+  font-weight: 600;
+ }
+ .one .num span {
+  height: 48px;
+  display: inline-block;
+  float: left;
+  margin-top: 42px;
+  font-size: 14px;
+  color: #fff;
+  margin-left: 12px;
+  font-weight: 600;
+ }
+
+.banner-right .two{
+  width: 255px;
+  height: 50px;
+  background: #fc7c52;
+  border-radius:25px;
+}
+.banner-right .two p{
+  display: block;
+  height: 50px;
+  line-height: 50px; 
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  color:#fff1eb;
+  width: 255px;
+}
+
+/* 中间广告部分结束 */
+
+
+/* 热门课程部分开始 */
+.hotclass {
+margin-top: 23px;
+margin-bottom: 43px;
+height:416px;
+}
+.hotclass .q {
+  display: inline-block;
+ /* display: inline-block; */
+  width: 500px;
+  height:1px;
+  background: #efefef;
+  margin-bottom: 10px;
+}
+.hotclass h3{
+ display: inline-block;
+  height:100px;
+  line-height: 100px;
+  font-size: 24px;
+  font-color:#717171;
+  text-align: center;
+  margin:0 18px;
+/*   border-bottom: 1px solid #efefef; */
+}
+.hotclass-left{
+  /* background: url(../images/1.jpg) no-repeat; */
+  width:560px;
+  height:316px;
+  float:left;
+}
+.hotclass-left img{
+  width: 100%;
+}
+.hotclass-right{
+  /*  background: url(../images/3.jpg) no-repeat; */
+   width:560px;
+   height: 316px;
+   float: right;
+}
+.hotclass-left .box1 {
+  width: 292px;
+  height: 100px;
+  border:5px solid #fff;
+ position: absolute;
+ top:74px;
+ left:135px;
+}
+.hotclass-left  .box1 span{
+  display: block;
+  font-size: 20px;
+  color:#fff;
+  position: absolute;
+  top: 29px;
+  left: 98px;
+}
+.hotclass-left span {
+  display: block;
+  font-size: 16px;
+  color: #fff;
+  position: absolute;
+  top:210px ;
+ left: 220px;
+}
+.hotclass-right .box2{
+  width: 302px;
+  height: 110px;
+  border:5px solid #fff;
+  /* margin:74px 135px 135px 135px; */
+  position: absolute;
+  top:74px;
+  right:135px;
+}
+.hotclass-right span{
+  display: block;
+  font-size: 16px;
+  color: #fff;
+  position: absolute;
+  top:210px ;
+  left: 220px;
+}
+.hotclass-right .box2 span{
+  display: block;
+  font-size: 20px;
+  color:#fff;
+  position: absolute;
+  top: 29px;
+  left: 68px;
+}
+/* 热门课程部分结束 */
+
+
+
+
+
+/*  班级推荐部分开始  */
+.recom .in .q {
+ display: inline-block;
+  width: 500px;
+  height:1px;
+  background: #efefef;
+  margin-bottom: 10px;
+}
+ .in h3{
+  display: inline-block;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  font-size: 24px;
+  margin:0 18px;
+}
+.recom-content ul{
+  height:290px;
+  /* background: pink; */
+}
+.recom-content .decital{
+    height: 290px;
+}
+.recom-content ul li{
+  margin-right:22px;
+  width: 264px;
+  height: 290px;
+  float:left;
+  border:1px solid #f0f0f0;
+
+}
+.recom-content ul li:last-child{
+  margin-right: 0;
+}
+.recom-content .top {
+  width: 265px;
+  height: 150px;
+ float: left;
+
+}
+.recom-content .top img{
+   width: 100%;
+}
+/* .recom-content .two .top {
+  background: url(../images/4.jpg)no-repeat ;
+}
+.recom-content .three .top{
+  background: url(../images/9.jpg)no-repeat ;
+}
+.recom-content .four .top{
+  background: url(../images/5.jpg)no-repeat ;
+} */
+.recom-content .ten{
+  width: 69px;
+  height: 50px;
+  float: left;
+  position: absolute;
+  top: 0;
+  left:0;
+  background: url(../images/1231.png) no-repeat;
+}
+.recom-content .center{
+ width: 237px;
+ height: 112px;
+ border-top: 1px solid #f0f0f0;
+ padding:14px;
+}
+.recom-content .center h6{
+  margin-bottom:9px;
+  font-size: 14px;
+  display: block;
+
+
+}
+.recom-content .center  p{
+  display: block;
+  height: 36px;
+  font-size: 12px;
+ 
+}
+
+ .zoo {
+  margin-top: 15px;
+  width:237px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 10px;
+  background: #15c388;
+}
+.zoo a{
+  display: block;
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+}
+
+/* 班级推荐部分结束 */
+
+/* 认证达人部分开始 */
+.expect .title .q {
+ display: inline-block;
+  width: 500px;
+  height:1px;
+  background: #efefef;
+  margin-bottom: 10px;
+
+}
+.expect .title h3{
+  display:inline-block;
+  height: 100px;
+  line-height: 100px;
+  font-size: 24px;
+  text-align: center;
+  margin:0 18px;
+}
+.expect .main {
+  height: 150px;
+
+}
+.main ul li{
+  float:left;
+  margin-right:23px;
+  width:360px;
+  height: 150px;
+  border:1px solid #f0f0f0;
+}
+.main ul li:last-child{
+  margin-right:0;
+}
+.expect .main .left {
+  float: left;
+  margin:20px 15px 25px 20px;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background: url("../images/7.png") no-repeat;
+  /* background: red; */
+}
+.main .bb .left{
+  background: url("../images/111.png") no-repeat;
+}
+.main .cc .left{
+   background: url("../images/14.jpg") no-repeat;
+}
+.expect .main .right{
+  float: left;
+  width:205px;
+  height: 150px;
+ /*  background: blue; */
+} 
+.main .right span:nth-child(1){
+  display: block;
+  padding-top: 34px;
+  padding-left:15px;
+  font-size: 14px;
+  color:#17c58a;
+  margin-bottom: 10px;
+}
+.right .px p{
+  display: block;
+  width: 100px;
+  height: 36px;
+  font-size: 14px;
+  line-height: 36px;
+  text-align: center;
+  border-radius: 18px;
+  background: #ff953a;
+  color:#fff;
+  margin-bottom:18px;
+}
+.main .right span:nth-child(2){
+  font-size: 14px;
+  color:#8d8d8d;
+}
+.expect .but{
+  width: 188px;
+  height: 67px;
+  /* background: pink; */
+  float: right;
+
+}
+ .but ul li{
+  float: right;
+  width: 88px;
+  height: 27px;
+  margin:20px 0 20px 0;
+/*   background: green; */
+  border-radius: 14px;
+  border:1px solid #999999;
+
+ }
+.but ul li:nth-child(1){
+float: left;
+}
+.but li a{
+/*   margin-top: 12px; */
+  display: block;
+  margin-top: 5px;
+  margin-left: 12px;
+  font-size: 12px;
+  color:#646967;
+}
+
+
+/* 认证达人部分结束 */
+
+
+/* 尾部部分开始 */
+.footer{
+/*   height: 500px; */
+  margin-top: 30px;
+	background: #515151;
+}
+.footer .shang{
+  height:127px;
+/*   margin-bottom: 38px; */
+  border-bottom: 1px solid #5f5f5f;
+}
+
+ .footer_left h2 a {
+  display: block;
+  width: 236px;
+  height: 55px;
+  background: url("../images/foot-logo.png") no-repeat;
+  font-size: 0;
+  margin-top: 40px;
+  margin-right: 120px;
+  margin-left: 65px;
+}
+.footer-right ul li{
+  float: left;
+  line-height: 16px;
+  margin-top: 48px;
+  margin-bottom: 12px;
+}
+ .footer .footer-right .line{
+  width:1px;
+  height:16px;
+  background: #fff;
+  margin:0 10px;
+  margin-top: 48px;
+}
+.shang ul li a{
+  font-size: 14px;
+  color:#fff;
+}
+
+
+.footer-right ul  p {
+ color:#989b9b;
+  text-align: center;
+  font-size: 14px;
+}
+
+
+/* 下部份 */
+
+.footer .xia ul {
+/*   margin-left: 65px; */
+  margin:17px 0 17px 65px;
+}
+
+.footer .xia  li{
+  float: left;
+ /*  margin-top: 17px; */
+  line-height: 12px;
+  margin-bottom: 16px;
+  text-align: center;
+}
+ .xia ul li a{
+  font-size: 12px;
+  color: #999a95;
+   
+  }
+.footer .xia .line{
+  width:1px;
+  height:12px;
+  background: #999a95;
+  margin:0 18px;
+  /* margin-top: 17px; */
+}
+.xia  p {
+  font-size: 12px;
+  color:#989b9b;
+}
+/* 尾部部分结束 
